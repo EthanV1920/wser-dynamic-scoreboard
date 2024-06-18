@@ -1,0 +1,11 @@
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: rgb(37, 184, 217);
+    background-color: black;
+    font-size: 1rem;
+    display: flexbox;
+    /* Most things are considered text so use text align to start and then try
+     *  other things if that does not work*/
+    text-align: center;
+
+}
