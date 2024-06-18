@@ -1,11 +1,43 @@
 body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    color: rgb(37, 184, 217);
+    color: rgb(137, 211, 228);
     background-color: black;
-    font-size: 1rem;
+    font-size: 10vw - 5vw;
     display: flexbox;
     /* Most things are considered text so use text align to start and then try
      *  other things if that does not work*/
     text-align: center;
-
 }
+
+button {
+    background-color: antiquewhite;
+    font-size: 2rem;
+    font-family: "Fira Code", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-top: 40px;
+    border: none;
+    border-radius: 15px;
+}
+
+#score_text {
+    font-size: 5rem;
+    border: style;
+    border-radius: 20px;
+    border-width: 100px;
+}
+
+.line_style {
+    border: solid;
+    border-radius: 20px;
+    border-width: 10px;
+    width: 50vw;
+}
+
+#score_page {
+    display: flexbox;
+}
+
+.score_board {
+    /* justify-content: center; */
+    float: left;
+}
+

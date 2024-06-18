@@ -7,8 +7,10 @@ function App() {
       <div>
         {/* All components go */}
         <Header/>
-        <Scoreboard/>
-        <Scoreboard/>
+        <div id="score_page">
+            <Scoreboard className="score_board_l" />
+            <Scoreboard className="score_board_r" />
+        </div>
       </div>
   )
 }
