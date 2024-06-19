@@ -2,7 +2,7 @@ body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     color: rgb(137, 211, 228);
     background-color: black;
-    font-size: 10vw - 5vw;
+    font-size: 4vh;
     display: flexbox;
     /* Most things are considered text so use text align to start and then try
      *  other things if that does not work*/
@@ -11,7 +11,7 @@ body {
 
 button {
     background-color: antiquewhite;
-    font-size: 2rem;
+    font-size: 2vh;
     font-family: "Fira Code", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin-top: 40px;
     border: none;
@@ -19,7 +19,7 @@ button {
 }
 
 #score_text {
-    font-size: 5rem;
+    font-size: 6vw;
     border: style;
     border-radius: 20px;
     border-width: 100px;
@@ -29,15 +29,24 @@ button {
     border: solid;
     border-radius: 20px;
     border-width: 10px;
-    width: 50vw;
+    width: 80vw;
 }
 
-#score_page {
-    display: flexbox;
+#score_con {
+    display: flex;
+    justify-content: center;
+
 }
 
-.score_board {
-    /* justify-content: center; */
-    float: left;
+.scoreboard {
+    border-radius: 20px;
+    margin: 3vw;
+    border: solid;
+    border-width: 10px;
+    max-width: fit-content;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+    /* background-color: red; */
 }
 

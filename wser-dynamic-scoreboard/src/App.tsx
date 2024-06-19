@@ -7,9 +7,9 @@ function App() {
       <div>
         {/* All components go */}
         <Header/>
-        <div id="score_page">
-            <Scoreboard className="score_board_l" />
-            <Scoreboard className="score_board_r" />
+        <div id="score_con">
+            <Scoreboard/>
+            <Scoreboard/>
         </div>
       </div>
   )
